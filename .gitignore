@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+backend/.env
+
+# Test files
+test_extension.html
+test_websocket.py
+
+# Keep project-specific txt files but ignore others
+# backend/test_*.txt - keep these
+*.txt
+!backend/test_*.txt
+
+# Node / Frontend
+node_modules/
+extension/dist/
+extension/node_modules/
+*.local
+
+# Generated files for Chrome extension
+extension/sidepanel.html
+extension/background.js
+extension/content.js
+extension/vite.svg
+extension/assets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Shortcuts
+*.lnk
+*.url
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Executables
+*.exe
+
+# Lab folders (user-specific)
+DA*/
+DA*
+camera/
+camera_and_rocket/
+rocket/
+ork_animation/
+without/
+GLM/
+devstral/
+
+# Academic files
+lab*/
+lab_*/
+*/
+*/
+С*/
+С*/
+
+# Landing pages
+landing/
+
+# C++ files
+*.cpp
+
+# Jupyter notebooks
+*.ipynb
+
+# Personal files (Russian)
+"Воспоминание/"
+"Первый/"
+"СУБКУЛЬТУРА БЕДНОСТИ.txt"
+
+# Keep package.json and package-lock.json
+!package.json
+!extension/package.json
+!extension/package-lock.json
